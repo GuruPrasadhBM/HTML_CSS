@@ -1,0 +1,49 @@
+/* justify-content: 
+Default : flex-start; 
+Center : Align center
+space-between : distribute evenly without outer space
+space-around: distribute evenly, equal margin on both the sides of the items
+*/
+
+/* align items:
+Default: Stretch
+flex start: arrange in the chosen axis with actual child size
+center: horizontal central alignment
+*/
+
+/* Align-Content
+Only used for multiline flex boxes
+*/
+
+/* flex-wrap - Multiline
+flex-wrap: wrap
+*/
+
+.flexbox-container {
+  display: flex;
+  background-color: yellow;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  height: 700px;
+  flex-direction: column;
+}
+
+.flexbox-item {
+  width: 200px;
+  margin: 10px;
+  border: 3px solid #333;
+  background-color: #dfdfdf;
+}
+
+.flexbox-item-1 {
+  min-height: 100px;
+}
+
+.flexbox-item-2 {
+  min-height: 200px;
+}
+.flexbox-item-3 {
+  min-height: 300px;
+}
