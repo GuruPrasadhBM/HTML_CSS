@@ -1,0 +1,22 @@
+#div-1 {
+  background-color: red;
+}
+
+#div-2 {
+  background-color: violet;
+}
+
+#span-1 {
+  background-color: cyan;
+  height: 100px;
+  width: 200px;
+}
+
+#span-2 {
+  background-color: yellow;
+}
+
+#img {
+  height: 100px;
+  width: 100px;
+}
