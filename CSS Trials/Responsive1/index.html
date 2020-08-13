@@ -9,7 +9,7 @@
   <body>
     <section>
       <div class="logo">Creative</div>
-      <img src="./Images/Portrait.jpg" class="bg" />
+      <img src="./Images/Portrait2.jpg" class="bg" />
       <div class="content">
         <h2>
           Let's Make <br />
@@ -25,5 +25,41 @@
       </div>
       <p class="copyrightText">Copy Right Text info</p>
     </section>
+    <div class="menuToggle" onclick="toggleMenu();"></div>
+    <div class="navigation">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Work</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="socialBar">
+        <ul>
+          <li>
+            <a href="#"><img src="./Images/facebook.png" alt="facebook" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="./Images/twitter.png" alt="facebook" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="./Images/instagram.png" alt="facebook" /></a>
+          </li>
+        </ul>
+
+        <a href="mailto:you@email.com" class="emailBx"
+          ><img src="./Images/email.png" alt="Email"
+        /></a>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      function toggleMenu() {
+        var menuToggle = document.querySelector('.menuToggle');
+        var navigation = document.querySelector('.navigation');
+        menuToggle.classList.toggle('active');
+        navigation.classList.toggle('active');
+      }
+    </script>
   </body>
 </html>
